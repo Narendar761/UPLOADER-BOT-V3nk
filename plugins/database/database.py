@@ -4,6 +4,12 @@ import datetime
 import motor.motor_asyncio
 from plugins.config import Config
 
+from pymongo import MongoClient
+
+# Replace 'localhost' with the hostname or IP address of your MongoDB server.
+# Replace 27017 with the port number of your MongoDB server if it's not the default.
+client = MongoClient('localhost', 27017)
+
 
 class Database:
     def __init__(self, uri, database_name):
