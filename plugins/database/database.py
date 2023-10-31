@@ -3,7 +3,6 @@
 import datetime
 import motor.motor_asyncio
 from plugins.config import Config
-
 from pymongo import MongoClient
 
 # Replace 'localhost' with the hostname or IP address of your MongoDB server.
