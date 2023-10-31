@@ -8,7 +8,6 @@ from pymongo import MongoClient
 # Replace 'localhost' with the hostname or IP address of your MongoDB server.
 # Replace 27017 with the port number of your MongoDB server if it's not the default.
 client = MongoClient('localhost', 27017)
-Helpy.iq05j.mongodb.net. 59	IN	TXT	"authSource=admin&replicaSet=atlas-leemhu-shard-0"
 
 
 class Database:
