@@ -10,7 +10,7 @@ yt-dlp
 olefile
 motor
 pymongo
-dnspython
+dnspython3
 psutil
 loggers
 filetype
