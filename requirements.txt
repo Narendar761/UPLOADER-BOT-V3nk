@@ -9,7 +9,7 @@ tgcrypto
 yt-dlp
 olefile
 motor
-pymongo==3.11
+pymongo==3.6
 dnspython3
 psutil
 loggers
