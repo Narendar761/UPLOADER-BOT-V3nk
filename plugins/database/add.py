@@ -5,6 +5,11 @@ from .database import db
 from pyrogram import Client
 from pyrogram.types import Message
 
+db = connection.test
+things = db.things
+item  = things.find_one()
+
+print (item['name'])
 
 
 async def add_user_to_database(bot: Client, cmd: Message):
