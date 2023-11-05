@@ -8,8 +8,8 @@ requests
 tgcrypto
 yt-dlp
 olefile
-motor
-pymongo==3.11
+motor==2.5.1
+pymongo==3.12.3
 dnspython3
 psutil
 loggers
