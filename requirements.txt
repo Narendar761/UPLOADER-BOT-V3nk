@@ -1,4 +1,4 @@
-https://github.com/pyrogram/tgcrypto.git
+tgcrypto
 aiohttp
 beautifulsoup4
 hachoir
