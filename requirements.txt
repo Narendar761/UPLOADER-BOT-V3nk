@@ -22,3 +22,13 @@ lk21
 Flask==2.2.2
 gunicorn==20.1.0
 pymongo[srv]
+scipy
+cython
+matplotlib
+scikit-image
+tensorflow>=1.13.1
+keras>=2.2.0
+opencv-python
+h5py
+imgaug
+IPython[all]
